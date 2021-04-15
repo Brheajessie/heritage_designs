@@ -2,7 +2,7 @@ body{
     background:#c4b7a6;
     padding:0;
     margin:0;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .logo{
@@ -18,8 +18,8 @@ nav{
     background: rgb(255, 255, 255, 0.3);
     /* background: grey; */
     /* height: 60px; */
-    text-align: left;
-    font-family: Helvetica, sans-serif
+    text-align:inline-block;
+    font-family: Arial, sans-serif
 }
 
 nav a{
@@ -35,9 +35,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-/* .social{ */
-    /* position: right; */
-/* } */
+
 
 .fa {
   padding: 10px;
@@ -77,6 +75,7 @@ nav a:hover{
 
 .hero{
     background-image: url(images/hero_buffet.jpg);
+    /* pexels.com */
     height:400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +88,7 @@ nav a:hover{
 
 .hero h2{
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     right: 5%;
 }
 
@@ -99,7 +98,7 @@ button{
     right: 5%;
     background: none;
     padding: 5px;
-    border: 2px black solid;
+    border: 2px #c4b7a6 solid;
     color: white;
     font-size: 1.3em;
     border-radius: 5px;
@@ -123,7 +122,7 @@ main{
 }
 
 .centered {
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 8px 8px 20px #c4b7a6;
 }
 
 /* Container holding the image and the text in FlexItem */
@@ -131,6 +130,7 @@ main{
   position: relative;
   text-align: center;
   color: black;
+  
 }
 
 
@@ -150,7 +150,7 @@ img{
 }
 
 footer{
-    background: rgba(0,0,0,0.8);
+    background: rgb(255, 255, 255, 0.3);
     padding: 40px;
 }
 
@@ -158,9 +158,6 @@ footer{
     color: white;
 }
 
-footer a {
-
-}
 
 /* medium size below */
 @media screen and (min-width: 700px) {
