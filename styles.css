@@ -104,11 +104,10 @@ button{
     border-radius: 5px;
 }
 
+/* css for responsive photos on about page */
+
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+  border: 0px solid #ccc;
 }
 
 div.gallery:hover {
@@ -125,6 +124,23 @@ div.desc {
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 main{
     margin: 20px auto;
         /* top right bottom left */
@@ -135,7 +151,7 @@ main{
 
 .flexItem{
     flex-basis: 300px;
-    flex-grow: 1;
+    flex-grow: 4;
     margin: 2px 2px 2px 2px;
     background: rgb(255, 255, 255,
         0.5);
@@ -180,6 +196,15 @@ footer{
 }
 
 /* Contact form style */
+
+/* MAP STYLES */
+
+.map {
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
 
 /* START MOBILE FORM STYLES */
     .form-container{
@@ -266,6 +291,21 @@ footer{
     }
 
 }
+/* Media for responsive photos on about page */
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
 /*START DESKTOP FORM STYLES */
       .form-container{
  /*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
